@@ -87,7 +87,7 @@ public class Queue<T> implements UnboundedQueueInterface<T> {
 	public T peek() throws NoSuchElementException {
             // TODO 7
 		if (isEmpty()) {
-throw new NoSuchElementException();
+	throw new NoSuchElementException();
 		}
             return front.data;
 	}
